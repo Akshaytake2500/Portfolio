@@ -1,11 +1,11 @@
 # Portfolio 🔥
 
-## [Demo Link](https://dopefolio.netlify.app) 🔗
+<!-- ## [Demo Link](https://dopefolio.netlify.app) 🔗 -->
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://i.postimg.cc/CxZXqhWM/ezgif-com-video-to-gif-1.gif" alt="Portfolio Demo" width="100%" />
   <br>
-</div>
+</div> -->
 
 <br/>
 <br/>
