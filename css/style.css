@@ -1,17 +1,3 @@
-/*
-0 - 600px:      Phone
-600 - 900px:    Tablet portrait
-900 - 1200px:   Tablet landscape
-[1200 - 1800] is where our normal styles apply
-1800px + :      Big desktop
-$breakpoint arguement choices:
-- phone
-- tab-port
-- tab-land
-- big-desktop
-
-Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
-*/
 *,
 *::after,
 *::before {
@@ -201,9 +187,10 @@ textarea {
   .home-hero__socials {
     position: absolute;
     top: 50%;
-    border: 2px solid #eee;
-    border-left: 2px solid #eee;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: .5rem; }
     @media only screen and (max-width: 56.25em) {
       .home-hero__socials {
         display: none; } }
@@ -211,10 +198,12 @@ textarea {
     position: absolute;
     bottom: 3%;
     left: 50%;
-    transform: translateX(-50%); }
+    transform: translateX(-50%);
+  color: #000; }
     @media only screen and (max-width: 37.5em) {
       .home-hero__mouse-scroll-cont {
-        display: none; } }
+        display: none;
+      color: #000; } }
   .home-hero__social {
     width: 5rem; }
   .home-hero__social-icon-link {
@@ -677,11 +666,12 @@ textarea {
 
 .mouse {
   width: 25px;
-  height: 40px;
-  border: 2px solid #eee;
-  border-radius: 60px;
-  position: relative;
-  overflow: hidden; }
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+   }
   .mouse::before {
     content: '';
     width: 5px;
